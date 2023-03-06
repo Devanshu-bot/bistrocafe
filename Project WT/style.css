@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Prompt&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Prompt&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Prompt&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Prompt&family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Fredoka&family=Hubballi&family=Prompt&family=Raleway&family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Hubballi&family=Prompt&family=Raleway&family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Fredoka&family=Fredoka+One&family=Hubballi&family=Prompt&family=Raleway&family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Hubballi&family=Prompt&family=Roboto+Mono:ital@1&display=swap');
+.logo{
+    width: 700px;
+
+	border-radius: 50px;
+    display: inline;
+    position: absolute; left: 780px; top: 70px;
+}
+body{
+    background: fixed;
+    background-image: url("bg.jpg");
+    background-size: 1550px;
+   
+}
+
+
+#navcolour{
+    position: fixed; top: 0px ; left: 0px; right: 0px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.459);
+}
+a.bar:hover{
+     color: white;
+    background-color: rgba(88, 69, 54, 0.548);
+}
+.bar{
+    
+    display: inline;
+    
+    color: black ;
+    /* color: rgb(90, 65, 40); */
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Hubballi', cursive;
+font-family: 'Prompt', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+    text-decoration: none;
+}
+
+
+.heading{
+    padding: 15px 200px;
+    
+   font-size: 60px;
+    text-decoration: none;
+    border-radius: 10px;
+    /* background-color: rgba(65, 43, 25, 0.568); */
+    color: rgb(56, 23, 14);
+position: absolute; left: 220px;
+font-family: 'Hubballi', cursive;
+font-family: 'Prompt', sans-serif;
+font-family: 'Roboto Mono', monospace;
+
+}
+.heading2{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px #be29b2;
+    font-size: 50px;
+    background-color: white;
+    border-radius: 30px;
+   font-style: italic;
+    position: absolute; right: 150px; top: 100px;
+}
+
+
+
+
+
+
+.type{
+    font-family: 'Hubballi', cursive;
+font-family: 'Prompt', sans-serif;
+font-family: 'Roboto Mono', monospace;
+color: black;
+text-decoration: none;
+}
+.h3{
+    color: aliceblue;
+    text-shadow: 0px 02px 5px rgb(0, 0, 0);
+    font-size: 25px;
+    position: absolute; top: 180px; left: 550px;
+
+}
+
+.body2{
+    background-image: url("BG exp2.png");
+    background-size: 1550px;
+    
+}
+
+    
+
+
+
+.bgdec{
+    width: 400px;
+    position: absolute; left: 0px;
+}
+
+#cmug{
+    width: 270px;
+    position: absolute; left: 750px; top: 700px;
+}
+
+#chocoleak{
+    position: absolute; left: 0px; top: 0px;
+}
+
+.hlogo{
+    position: absolute; left: 1080px;top: 48px;
+    width: 140px;
+}
+
+.vl{
+    border-left: 6px black;
+    height: 1000px;
+}
+
+#cafename{
+    font-size: 70px;
+    position: absolute; left: 800px; top: 70px;
+}
+
+
+#or{
+
+    font-size: 90px;
+    position: absolute; left: 700px; top: 400px;
+}
+#cbox{
+    width: 400px;
+ position: absolute; left: 370px; top: 650px;
+}
+
+#mugtalk{
+    position: absolute; left: 400px;top: 700px;
+}
+
+#juice{
+    width: 250px;
+    position: absolute; left: 1100px; top: 600px;
+}
+#cme{
+    position: absolute; left: 840px; top: 960px;
+    text-decoration: wavy; 
+}
+.logo1{
+    position: absolute; left: 20px; top: 20px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+a.img1 :hover{
+    width: 400px;
+}
+
+.img1
+{
+    width: 600px;
+    border-radius: 10px; 
+       position: absolute; left: 30px; top: 200px;
+  
+}
+
+
+#img2{
+    width: 300px;
+    border-radius: 5px;
+    position: absolute; left: 710px;top: 400px;
+}
+#img3{
+    width: 300px;
+    height: 190px;
+    border-radius: 5px;
+    position: absolute; left: 710px;top: 610px;
+
+}
+#note{
+    font-size: 45px;
+    position: absolute; left: 760px; top: 400px;
+}
+#body3{
+    background: url("—Pngtree—simple cartoon seafood food advertisement_1044112.jpg");
+    background-size: 1540px;
+}
+.table{
+    position: absolute ; top: 100px;
+    font-size: 30px;
+    background-color: rgba(104, 66, 23, 0.61);
+}
+
+#chill{
+    position: absolute; top: 440px; left: 100px;
+font-size: 36px;
+text-shadow: 0px 0px 5px rgb(243, 243, 243);
+color: rgb(49, 50, 78);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.w3-container w3-black{
+
+display: block;
+padding: 5px;
+border-radius: 10px;
+background-color: rgb(211, 159, 159);
+    position: fixed; bottom: 0px; right: 0px;
+}
+
+.logo3{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.t{
+    border-radius: 30px;
+    background-color: white;
+    text-shadow: 0px 0px 4px rgb(255, 0, 0);
+}
+
+.t1{
+    border-radius: 30px;
+    background-color: white;
+    text-shadow: 0px 0px 4px rgb(21, 250, 0);
+}
+.type{
+    background: white;
+}
+#body4{
+    background: url("f5e00beadc64d1b2ddaf6103d6be725d.jpg");
+        background-size: 1540px
+    }
+
+.navbar1{
+    display: inline;
+    padding: 10px;
+    position: absolute; left: 200px; top: 50px;
+    top: 30px; 
+    font-size: 30px;
+   
+background-color: rgb(228, 135, 147);
+border-radius: 20px;
+
+
+}
+
+.navbar2{
+    display: inline;
+    padding: 10px;
+    position: absolute; left: 200px;
+    top: 30px; 
+    font-size: 30px;
+   
+background-color: rgb(228, 135, 147);
+border-radius: 20px;
+}
+.navbar3{
+    display: inline;
+    padding: 10px;
+    position: absolute; left: 200px;
+    top: 30px; 
+    font-size: 30px;
+   
+background-color: rgb(150, 124, 91);
+border-radius: 20px;
+}
+
+.foot{
+    display: inline;
+    position: absolute; bottom:  -440px;left: 0px; right: 0px;
+    padding: 100px;
+      
+    
+    background-color: rgb(151, 125, 91);
+}
+
+
+.smlogo{
+    width: 40px;
+    padding: 10px;
+    position: relative;  left: 1020px;
+    
+}
+.sm{
+    position: absolute; right: 100px;bottom: 100px;
+}
+h3{
+    font-size: 25px;
+    font-family: 'Fredoka', sans-serif;
+    position: absolute ; right: 201px; bottom: 145px;
+}
+
+.th{
+    
+    font-family: 'Dancing Script', cursive;
+font-family: 'Fredoka', sans-serif;
+font-family: 'Fredoka One', cursive;
+color: #996633;
+
+
+}
+
+.coffee{
+    position: absolute; top: 100px; left: 5px;
+}
+.cthead{
+    
+    text-decoration: underline; 
+    font-size: 20px;
+}
+.dessert{
+    position: absolute; top: 100px; left: 500px;
+}
+
+
+.vl {
+    position: absolute; left: 517px; top: 127px;
+    align-items: center;
+  border-left: 3px solid rgb(0, 0, 0);
+  height: 255px;
+}
+
+.vl2 {
+    position: absolute; left: 5px; top: 127px;
+    align-items: center;
+  border-left: 3px solid rgb(0, 0, 0);
+  height: 255px;
+}
+
+.vl3 {
+    position: absolute; left: 955px; top: 127px;
+    align-items: center;
+  border-left: 3px solid rgb(0, 0, 0);
+  height: 255px;
+}
+
+.vl4 {
+    position: absolute; right: 40px; top:127px;
+    align-items: center;
+  border-left: 3px solid rgb(0, 0, 0);
+  height: 255px;
+}
+
+.juice{
+    position: absolute; top: 100px; left: 950px;
+}
+#time{
+   position: absolute; top: 73px; right: 10px;
+}
+
+#con1{
+    position: absolute; top: 1070px; right: 100px;
+}
+
+#cop{
+    position: absolute; bottom: -300px; left: 100px;
+}
+.su{
+    font-size: 50px;
+    font-family: 'Hubballi', cursive;
+font-family: 'Prompt', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+position: absolute; left: 700px; top: 60px;
+}
+.formdesign{
+    border-radius: 100px;
+    
+    color: white;
+    font-family: 'Hubballi', cursive;
+font-family: 'Prompt', sans-serif;
+font-family: 'Roboto Mono', monospace;
+    position: relative; top: 150px; left: 600px; 
+    padding: 10px;
+}
+
+.but{
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+padding: 10px;
+    background-color: rgba(92, 51, 33, 0.938);
+    position: absolute; top: 450px; left: 750px;
+    width: 100px
+    
+}
+.sp{
+    position: absolute ; left: 180px;
+}
+#body3{
+    
+    background: url("workspace-gbf17f2c30_1920.jpg");
+    opacity: 0.5;
+}
+.formerror{
+    position: absolute; right: 700px;
+}

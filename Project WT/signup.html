@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>Sign UP</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<header class="header">
+
+        
+       
+</div>
+<div  ><nav id="navcolour">
+    <a class="bar"  href="home.html">Home</a>
+    <a  class="bar" href="menu.html">Menu</a>
+    <a  class="bar" href="about.html">About</a>
+    
+    <a  class="bar" href="contact.html">Contact</a>
+    <a  class="bar" href="signup.html">Login</a>
+</nav></div>
+</header>
+
+<body id="body3">
+    <h1 class="su" >Sign UP</h1>
+    <form aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+        <div class="formdesign" id="name">
+            <label for="myname">Name:</label> <input id="myname" class="sp" type="text" name="fname" required><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="formdesign" id="email">
+           <label for="myemail"> Email:</label> <input type="email" class="sp" name="femail" required><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="formdesign" id="phone">
+            <label for="myphone">Phone:</label> <input id="myphone" class="sp" type="phone" name="fphone" required><b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formdesign" id="pass">
+           <label for="mypass"> Password:</label> <input id="mypass" class="sp" type="password" name="fpass" required><b><span class="formerror"</span></b>
+        </div>
+
+        <div class="formdesign" id="cpass">
+           <label for="mycpass">Confirm Password:</label> <input id="mycpass" class="sp" type="password" name="fcpass" required><b><span class="formerror"></span></b>
+        </div>
+
+        <input class="but" type="submit" value="Submit">
+
+    </form>
+</body>
+<script >
+    function clearErrors(){
+
+errors = document.getElementsByClassName('formerror');
+for(let item of errors)
+{
+    item.innerHTML = "";
+}
+
+
+}
+function seterror(id, error){
+//sets error inside tag of id 
+element = document.getElementById(id);
+element.getElementsByClassName('formerror')[0].innerHTML = error;
+
+}
+
+function validateForm(){
+var returnval = true;
+clearErrors();
+
+//perform validation and if validation fails, set the value of returnval to false
+var name = document.forms['myForm']["fname"].value;
+if (name.length<5){
+    seterror("name", "*Length of name is too short");
+    returnval = false;
+}
+
+if (name.length == 0){
+    seterror("name", "*Length of name cannot be zero!");
+    returnval = false;
+}
+
+var email = document.forms['myForm']["femail"].value;
+if (email.length>15){
+    seterror("email", "*Email length is too long");
+    returnval = false;
+}
+
+var phone = document.forms['myForm']["fphone"].value;
+if (phone.length != 10){
+    seterror("phone", "*Phone number should be of 10 digits!");
+    returnval = false;
+}
+
+var password = document.forms['myForm']["fpass"].value;
+if (password.length < 6){
+
+    // Quiz: create a logic to allow only those passwords which contain atleast one letter, one number and one special character and one uppercase letter
+    seterror("pass", "*Password should be atleast 6 characters long!");
+    returnval = false;
+}
+
+var cpassword = document.forms['myForm']["fcpass"].value;
+if (cpassword != password){
+    seterror("cpass", "*Password and Confirm password should match!");
+    returnval = false;
+}
+
+return returnval;
+}
+</script>
+
+</html>

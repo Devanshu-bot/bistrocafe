@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>Sign UP</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<header class="header">
+
+        
+       
+</div>
+<div  ><nav id="navcolour">
+    <a class="bar"  href="home.html">Home</a>
+    <a  class="bar" href="menu.html">Menu</a>
+    <a  class="bar" href="">About</a>
+    
+    <a  class="bar" href="">Contact</a>
+    <a  class="bar" href="login.html">Login</a>
+</nav></div>
+
+</header>
+
+<body id="body3">
+    <h1 class="su" >Sign UP</h1>
+    <form aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+        <div class="formdesign" id="name">
+            <label for="myname">Name:</label> <input id="myname" class="sp" type="text" name="fname" required><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="formdesign" id="email">
+           <label for="myemail"> Email:</label> <input type="email" class="sp" name="femail" required><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="formdesign" id="phone">
+            <label for="myphone">Phone:</label> <input id="myphone" class="sp" type="phone" name="fphone" required><b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formdesign" id="pass">
+           <label for="mypass"> Password:</label> <input id="mypass" class="sp" type="password" name="fpass" required><b><span class="formerror"</span></b>
+        </div>
+
+        <div class="formdesign" id="cpass">
+           <label for="mycpass">Confirm Password:</label> <input id="mycpass" class="sp" type="password" name="fcpass" required><b><span class="formerror"></span></b>
+        </div>
+
+        <input class="but" type="submit" value="Submit">
+
+    </form>
+</body>
+<script src="index.js"></script>
+
+</html>

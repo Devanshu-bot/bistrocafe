@@ -1,0 +1,66 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+#veg{
+	background: mediumseagreen;
+}
+#nonveg{
+	background: tomato;
+}
+#veg, #nonveg
+{
+	position: relative;
+	margin: 0 50px;
+	padding: 20px 40px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	text-decoration: none;
+	letter-spacing: 4px;
+	transform-style: preserve-3d;
+	transition: ease-in-out 1s;
+	border-radius: 60px;
+}
+#veg:hover, #nonveg:hover
+{
+	transform: rotateX(360deg);
+}
+#veg span, #nonveg span
+{
+	display: block;
+	font-weight: bold;
+	transform-style: preserve-3d;
+	transform: perspective(100px) translateZ(20px);
+}
+#veg:before, #nonveg:before
+{
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: 6px;
+	right: 6px;
+	bottom: 4px;
+	border: 2px solid #fff;
+	transform-style: preserve-3d;
+	transform: perspective(500px) translateZ(15px);
+	border-radius: 60px;
+}
+#veg:after, #nonveg:after
+{
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	right: 2px;
+	bottom: 2px;
+	border: 2px solid #fff;
+	transform-style: preserve-3d;
+	transform: perspective(500px) translateZ(-15px);
+	border-radius: 60px;
+}
